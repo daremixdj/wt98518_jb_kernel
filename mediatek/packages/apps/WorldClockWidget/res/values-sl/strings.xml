@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Svetovna ura</string>
+    <string name="current_time_text">Trenutno</string>
+    <string name="another_city_text">"Dodaj"</string>
+    <string name="ime_action_done">"Dokončano"</string>
+    <string name="a_city_selected">Izbrano je mesto.</string>
+    <string name="search_city">Iskanje mesta</string>
+    <string name="next">Naprej</string>
+    <string name="select_right_city">Oprostite, mesto ne obstaja.</string>
+    <string name="clock_loading">Nalaganje\u2026</string>
+    <string name="add_city">Pritisnite ikono za dodajanje novega mesta</string>
+    <string name="add_new_city">Dodaj novo mesto</string>
+    <string name="delete_city">Izbriši mesto</string>
+    <string name="delete_city_info">Mesto bo izbrisano</string>
+    <string name="has_chosen">je izbrano.</string>
+    <string name="deleteok">Izbriši</string>
+    <string name="cancel">Prekliči</string>    
+</resources>

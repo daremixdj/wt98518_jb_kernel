@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ကမၻာလံုးဆိုင္ရာ နာရီ</string>
+    <string name="current_time_text">လက္ရွိ</string>
+    <string name="another_city_text">ထည့္ပါ</string>
+    <string name="ime_action_done">ၿပီးၿပီ</string>
+    <string name="a_city_selected">ၿမိဳ႕ေတာ္တစ္ခုကို ေရြးခ်ယ္သည္။</string>
+    <string name="search_city">ၿမိဳ႕ေတာ္ကို ရွာပါ</string>
+    <string name="next">ေနာက္</string>
+    <string name="select_right_city">ဝမ္းနည္းပါတယ္၊ ယင္းၿမိဳ႕အမည္မရွိပါ။</string>
+    <string name="clock_loading">ဖြင့္ေနဆဲ\u2026</string>
+    <string name="add_city">ၿမိဳ႕အသစ္ထည့္ရန္ အိုင္ကြန္ကို ႏွိပ္ပါ</string>
+    <string name="add_new_city">ၿမိဳ႕ေတာ္ အသစ္ေပါင္းထည့္ပါ</string>
+    <string name="delete_city">ၿမိဳ႕ေတာ္ ဖ်က္ပစ္ပါ</string>
+    <string name="delete_city_info">ၿမိဳ႕ေတာ္ကို ဖ်က္ပစ္မည္ ျဖစ္သည္</string>
+    <string name="has_chosen">ေရြးခ်ယ္ထားျခင္းမရွိပါ။</string>
+    <string name="deleteok">ဖ်က္ပါ</string>
+    <string name="cancel">မလုပ္ပါ</string>    
+</resources>

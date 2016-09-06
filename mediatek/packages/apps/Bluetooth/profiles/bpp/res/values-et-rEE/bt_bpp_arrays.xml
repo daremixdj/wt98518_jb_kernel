@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Portree"</item>
+		<item>"Maastik"</item>
+		<item>"pööratud portree"</item>
+		<item>"pööratud maastik"</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Ühepoolne"</item>
+		<item>"Kahepoolne portree"</item>
+		<item>"Kahepoolne maastik"</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Tavaline"</item>
+		<item>"Mustand"</item>
+		<item>"Kõrge"</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+		<item>tundmatu</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"vigadeta"</item>
+		<item>"C-kaardi faili loomine nurjus"</item>
+		<item>"Tundmatu pildivorming"</item>
+	</string-array>
+</resources>

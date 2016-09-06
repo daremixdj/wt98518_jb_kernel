@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">世界時鐘</string>
+    <string name="current_time_text">當前</string>
+    <string name="another_city_text">增加</string>
+    <string name="ime_action_done">完成</string>
+    <string name="a_city_selected">選了一個城市。</string>
+    <string name="search_city">搜索城市</string>
+    <string name="next">下一個</string>
+    <string name="select_right_city">對不起，沒有這樣的城市。</string>
+    <string name="clock_loading">載入中\u2026</string>
+    <string name="add_city">按圖示來新增新城市</string>
+    <string name="add_new_city">增加新的城市</string>
+    <string name="delete_city">刪除城市</string>
+    <string name="delete_city_info">城市已被刪除</string>
+    <string name="has_chosen">已選擇。</string>
+    <string name="deleteok">刪除</string>
+    <string name="cancel">取消</string>    
+</resources>

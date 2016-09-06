@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Световен часовник</string>
+    <string name="current_time_text">"Текуща"</string>
+    <string name="another_city_text">"Добавяне"</string>
+    <string name="ime_action_done">"Готово"</string>
+    <string name="a_city_selected">Избран град.</string>
+    <string name="search_city">Търсене на глад</string>
+    <string name="next">Следващ</string>
+    <string name="select_right_city">Съжалявам, няма такъв град.</string>
+    <string name="clock_loading">Зареждане\u2026</string>
+    <string name="add_city">Натиснете иконата за добавяне на град</string>
+    <string name="add_new_city">Добавяне нов град</string>
+    <string name="delete_city">Изтриване на град</string>
+    <string name="delete_city_info">Градът ще бъде изтрит</string>
+    <string name="has_chosen">е избран.</string>
+    <string name="deleteok">"Изтриване"</string>
+    <string name="cancel">"Отказ"</string>    
+</resources>

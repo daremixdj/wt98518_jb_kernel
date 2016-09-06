@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bluetooth_pbap_server">"Accés a la llibreta d'adreces per Bluetooth"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_ticker">"Sol·licitud d'autorització PBAP Bluetooth"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_ticker">"Sol·licitud d'autenticació PBAP Bluetooth"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_message">"Seleccioneu-lo per permetre la connexió PBAP"</string>
+	<string name="bluetooth_pbap_server_authorize_title">"Autorització PBAB Bluetooth"</string>
+	<string name="bluetooth_pbap_server_auth_passcode">"Codi de pas"</string>	
+	<string name="bluetooth_pbap_server_auth_ok">"Accepta"</string>
+	<string name="bluetooth_pbap_server_auth_cancel">"Cancel·la"</string>
+	<string name="bluetooth_pbap_server_authorize_allow">"Permet"</string>
+	<string name="bluetooth_pbap_server_authorize_notify_title">"Sol·licitud d'autorització PBAP Bluetooth"</string>
+	<string name="bluetooth_pbap_server_authorize_message">"Voleu permetre la connexió PBBAP de %1$s?"</string>
+	<string name="bluetooth_pbap_server_auth_chall_notify_title">"Sol·licitud d'autenticació PBAP Bluetooth"</string>
+	<string name="bluetooth_pbap_server_auth_chall_message">"Sol·licitud d'autenticació PBAP de %1$s"</string>
+	<string name="bluetooth_pbap_server_authorize_decline">"Rebutja"</string>
+	<string name="bluetooth_pbap_server_authorize_alwaysallowed">"Permetre-ho sempre?"</string>
+</resources>

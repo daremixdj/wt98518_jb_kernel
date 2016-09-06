@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="bt_bip_app_name">"藍芽相片傳輸"</string>
+
+
+	<string name="bt_bipi_push_confirmation">"相片推送確認"</string>
+	<string name="bt_bipi_unsupported_format">"收件人不支援編碼。\n確定要繼續傳送嗎？"</string>
+	<string name="bt_bipi_push_confirmation_ok">"確定"</string>
+	<string name="bt_bipi_push_confirmation_cancel">"取消"</string>
+	<string name="bt_bip_transmitting_dialog_hide">"隱藏"</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"取消"</string>
+	<string name="bt_bip_transmitting_dialog_ok">"確定"</string>
+	<string name="bt_bip_transmitting_dialog_yes">"是"</string>
+	<string name="bt_bip_transmitting_dialog_no">"否"</string>
+	<string name="bt_bip_transmitting">"正在傳送相片，%1$s"</string>
+	<string name="bt_bip_transmitting_successful">"相片 %1$s 已傳送"</string>
+	<string name="bt_bip_transmitting_fail">"傳送相片 %1$s 失敗"</string>
+	<string name="bt_bip_cancel_pending_job">"取消此待機傳輸？"</string>
+	<string name="bt_bip_pending_job">"傳送 %1$s (待機中)"</string>
+	<string name="bt_bipr_incoming_request">"收到相片接收要求"</string>
+	<string name="bt_bipr_incoming_request_description">"勾選以接收 %1$s"</string>
+	<string name="bt_bipr_accept_title">"收到相片"</string>
+	<string name="bt_bipr_accept_content">"接受來自 "%3$s" 的 "%1$s (%2$sKB)"？"</string>
+	
+	<string name="bt_bipr_accept_always">"一律接受？"</string>
+	
+
+	<string name="bt_bipr_accept_yes">"是"</string>
+	<string name="bt_bipr_accept_no">"否"</string>
+	<string name="bt_bip_receiving">"正在接收相片，%1$s"</string>
+	<string name="bt_bip_receiving_successful">"已接收相片 %1$s。\n您希望檢視此相片嗎？"</string>
+	<string name="bt_bip_receiving_fail">"接收相片 %1$s 失敗"</string>
+	<string name="bt_bip_toast_connect_fail">"連接失敗"</string>
+	<string name="bt_bip_toast_storage_unmounted">"請檢查 SD 卡"</string>
+	<string name="bt_bip_toast_sending_object">"正在傳送相片，%1$s"</string>
+	<string name="bt_bip_auth_password">"密碼："</string>
+	<string name="bt_bip_auth_userid">"ID："</string>
+	<string name="bt_bip_auth_ok">"確定"</string>
+	<string name="bt_bip_auth_cancel">"取消"</string>
+
+</resources>

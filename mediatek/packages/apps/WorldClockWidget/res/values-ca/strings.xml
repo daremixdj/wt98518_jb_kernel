@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rellotge mundial</string>
+    <string name="current_time_text">Actual</string>
+    <string name="another_city_text">"Afegeix"</string>
+    <string name="ime_action_done">"Fet"</string>
+    <string name="a_city_selected">Una ciutat seleccionada.</string>
+    <string name="search_city">Cerca ciutat</string>
+    <string name="next">Següent</string>
+    <string name="select_right_city">Aquesta ciutat no existeix.</string>
+    <string name="clock_loading">S’està carregant\u2026</string>
+    <string name="add_city">Prem la icona per afegir una ciutat nova</string>
+    <string name="add_new_city">Afegeix una ciutat nova</string>
+    <string name="delete_city">Eliminar la ciutat</string>
+    <string name="delete_city_info">"La ciutat s'eliminarà."</string>
+    <string name="has_chosen">s’ha seleccionat.</string>
+    <string name="deleteok">Elimina</string>
+    <string name="cancel">Cancel·la</string>    
+</resources>

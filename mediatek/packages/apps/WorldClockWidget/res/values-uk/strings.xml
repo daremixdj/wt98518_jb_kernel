@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Світовий годинник</string>
+    <string name="current_time_text">"Поточна"</string>
+    <string name="another_city_text">"Додати"</string>
+    <string name="ime_action_done">"Готово"</string>
+    <string name="a_city_selected">Вибране місто.</string>
+    <string name="search_city">Шукати місто</string>
+    <string name="next">Далі</string>
+    <string name="select_right_city">Вибачте, такого міста нема.</string>
+    <string name="clock_loading">Завантаження\u2026</string>
+    <string name="add_city">Натисніть піктограму, щоб додати нове місто</string>
+    <string name="add_new_city">Додати нове місто</string>
+    <string name="delete_city">Видалити місто</string>
+    <string name="delete_city_info">Місто видалено</string>
+    <string name="has_chosen">було вибрано.</string>
+    <string name="deleteok">"Delete"</string>
+    <string name="cancel">"Скасувати"</string>    
+</resources>

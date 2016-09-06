@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<string name="bluetooth_map_server_authorize_request_ticker">"リモートメッセージのアクセス許可リクエスト"</string>
+	<string name="bluetooth_map_server_authorize_request_title">"リモートメッセージのアクセス許可リクエスト"</string>
+	<string name="bluetooth_map_server_authorize_request_message">"選択してメッセージアクセス接続を許可できます"</string>
+	<string name="bluetooth_map_server_authorize_title">"リモートメッセージのアクセス許可"</string>
+	<string name="bluetooth_map_server_authorize_message">"%1$からのリモートメッセージのアクセス要求を許可しますか"</string>
+	<string name="bluetooth_map_server_authorize_confirm_allow">"許可"</string>
+	<string name="bluetooth_map_server_authorize_confirm_reject">"拒否"</string>
+	
+	<string name="bluetooth_map_server_connect_notify_ticker">"リモートメッセージアクセスモードは接続されました"</string>
+	<string name="bluetooth_map_server_connect_notify_title">"%1$sがメッセージにアクセスしています"</string>
+	<string name="bluetooth_map_server_connect_notify_message">"選択して %1$sとの接続を外せます"</string>
+	<string name="bluetooth_map_server_disconnect_title">"リモートメッセージアクセスを外す"</string>
+	<string name="bluetooth_map_server_disconnect_message">"%1$sとの接続を外しますか？"</string>
+  <string name="bluetooth_map_server_yes">"はい"</string>
+	<string name="bluetooth_map_server_no">"いいえ"</string>
+	
+	    
+	<string name="bluetooth_map_server_settings">"リモートメッセージアクセス設定"</string>
+	<string name="bluetooth_map_server_enable_title">"リモートメッセージアクセス"</string>
+	<string name="bluetooth_map_server_enable_summary">"ONにする"</string>
+	<string name="bluetooth_map_server_sim_index_title">"SIMを選択"</string>
+	<string name="bluetooth_map_server_account_index_title">"メールアカウントを選択"</string>
+	<string name="bluetooth_map_server_no_account">"利用可能なメールアカウントは存在しません"</string>
+	<string name="bluetooth_map_server_OK">"OK"</string>
+	<string name="bluetooth_map_server_cancel">"キャンセル"</string>
+</resources>

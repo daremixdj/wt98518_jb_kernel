@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="voice_ui_camera_command_title">カメラのボイス制御</string>
+    <string name="voice_ui_phone_command_title">携帯端末のボイス制御</string>
+    <string name="voice_ui_alarm_command_title">アラームのボイス制御</string>
+    <string name="app_name">ボイスコマンド</string>
+    <string name="voice_ui_title">"ボイス制御"</string>
+    <string name="voice_ui_app_category">"アプリ用"</string>
+    <string name="voice_ui_setting_category">"設定"</string>
+    <string name="voice_ui_language_title">"ボイス制御用の言語"</string>
+    <string name="incoming_call_app_name">"携帯端末"</string>
+    <string name="alarm_app_name">"アラーム"</string>
+    <string name="camera_app_name">"カメラ"</string>
+    <string name="music_app_name">"音楽"</string>
+    <string name="incomming_command_summary_format"><xliff:g id="first">%1$s</xliff:g> または <xliff:g id="second">%2$s</xliff:g>と言えば着信を受け取ったり、無視できます。</string>
+    <string name="alarm_command_summary_format"><xliff:g id="first">%1$s</xliff:g> または <xliff:g id="second">%2$s</xliff:g>と言えばアラームを制御できます。</string>
+    <string name="camera_command_summary_format"><xliff:g id="first">%1$s</xliff:g> または <xliff:g id="second">%2$s</xliff:g>と言えばキャプチャを行えます。</string>
+    <string name="music_command_summary_format"><xliff:g id="first">%1$s</xliff:g> または <xliff:g id="second">%2$s</xliff:g>と言えば音楽再生を制御できます。</string>
+    <string name="playback_failed">申し訳有りません、ファイルを開けません。</string>
+    <string name="voice_ui_commands">コマンド一覧</string>
+</resources>

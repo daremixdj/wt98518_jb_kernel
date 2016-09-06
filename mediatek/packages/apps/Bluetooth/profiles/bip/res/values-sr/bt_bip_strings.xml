@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="bt_bip_app_name">"Bluetooth пренос слике"</string>
+
+
+	<string name="bt_bipi_push_confirmation">"Потврда гурања слике"</string>
+	<string name="bt_bipi_unsupported_format">"Пријемник не подржава декодирање.\nНаставити слање?</string>
+	<string name="bt_bipi_push_confirmation_ok">"ОК"</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Откажи"</string>
+	<string name="bt_bip_transmitting_dialog_hide">"Сакриј"</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Откажи"</string>
+	<string name="bt_bip_transmitting_dialog_ok">"ОК"</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Да"</string>
+	<string name="bt_bip_transmitting_dialog_no">"Не"</string>
+	<string name="bt_bip_transmitting">"Шаље се слика, %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"Слика %1$s је послата"</string>
+	<string name="bt_bip_transmitting_fail">"Слика %1$s није успешно послата"</string>
+	<string name="bt_bip_cancel_pending_job">"Отказати овај очекивани пренос?"</string>
+	<string name="bt_bip_pending_job">"Пошаљи %1$s (Очекује се)"</string>
+	<string name="bt_bipr_incoming_request">"Захтев за примање слике"</string>
+	<string name="bt_bipr_incoming_request_description">"Одаберите да примите %1$s"</string>
+	<string name="bt_bipr_accept_title">"Долазећа слика"</string>
+	<string name="bt_bipr_accept_content">"Прихватити "%1$s (%2$sKB)" од "%3$s" ?"</string>
+	
+	<string name="bt_bipr_accept_always">"Увек прихватити?"</string>
+	
+
+	<string name="bt_bipr_accept_yes">"Да"</string>
+	<string name="bt_bipr_accept_no">"Не"</string>
+	<string name="bt_bip_receiving">"Прима се слика %1$s"</string>
+	<string name="bt_bip_receiving_successful">"Слика %1$s је примљена.\nДа ли желите да видите ову слику?"</string>
+	<string name="bt_bip_receiving_fail">"Слика %1$s није успешно примљена"</string>
+	<string name="bt_bip_toast_connect_fail">"Повезивање није успело"</string>
+	<string name="bt_bip_toast_storage_unmounted">"Молимо проверите да ли је SD картица спремна"</string>
+	<string name="bt_bip_toast_sending_object">"Шаље се слика, %1$s"</string>
+	<string name="bt_bip_auth_password">"Лозинка:"</string>
+	<string name="bt_bip_auth_userid">"ID:"</string>
+	<string name="bt_bip_auth_ok">"OK"</string>
+	<string name="bt_bip_auth_cancel">"Откажи"</string>
+
+</resources>

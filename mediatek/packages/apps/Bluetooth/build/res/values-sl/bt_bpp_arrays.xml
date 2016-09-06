@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Portret"</item>
+		<item>"Pokrajina"</item>
+		<item>"vzvratni portret"</item>
+		<item>"vzvratna pokrajina"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Enostransko"</item>
+		<item>"Dvostransko z dolgim robom"</item>
+		<item>"Dvostransko s kratkim robom"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Običajno"</item>
+		<item>"Osnutek"</item>
+		<item>"Visoko"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+		<item>"Neznano"</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"brez napak"</item>
+		<item>"Ustvarjanje datoteke vCard ni uspelo"</item>
+		<item>"Nepodprta oblika zapisa slike"</item>
+	</string-array>
+</resources>

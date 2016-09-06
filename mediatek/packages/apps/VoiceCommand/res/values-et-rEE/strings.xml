@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="voice_ui_camera_command_title">Kaamera hääljuhtimine</string>
+    <string name="voice_ui_phone_command_title">Telefoni hääljuhtimine</string>
+    <string name="voice_ui_alarm_command_title">Alarmi hääljuhtimine</string>
+    <string name="app_name">Häälkäsklus</string>
+    <string name="voice_ui_title">"Hääljuhtimine"</string>
+    <string name="voice_ui_app_category">"Rakenduste jaoks"</string>
+    <string name="voice_ui_setting_category">"Seaded"</string>
+    <string name="voice_ui_language_title">"Hääljuhtimise keel"</string>
+    <string name="incoming_call_app_name">"Telefon"</string>
+    <string name="alarm_app_name">"Alarm"</string>
+    <string name="camera_app_name">"Kaamera"</string>
+    <string name="music_app_name">"Muusika"</string>
+    <string name="incomming_command_summary_format">Sa võid öelda <xliff:g id="first">%1$s</xliff:g> või <xliff:g id="second">%2$s</xliff:g>, et sisenevatele kõnedele vastata või nendest keelduda.</string>
+    <string name="alarm_command_summary_format">Sa võid öelda<xliff:g id="first">%1$s</xliff:g> või <xliff:g id="second">%2$s</xliff:g> alarmi juhtimiseks.</string>
+    <string name="camera_command_summary_format">Sa võid öelda<xliff:g id="first">%1$s</xliff:g> või <xliff:g id="second">%2$s</xliff:g> jäädvustamiseks.</string>
+    <string name="music_command_summary_format">Sa võid öelda<xliff:g id="first">%1$s</xliff:g> ja <xliff:g id="second">%2$s</xliff:g> muusika esituse juhtimiseks.</string>
+    <string name="playback_failed">Kahjuks faili avamine ebaõnnestus.</string>
+    <string name="voice_ui_commands">KÄSUD</string>
+</resources>

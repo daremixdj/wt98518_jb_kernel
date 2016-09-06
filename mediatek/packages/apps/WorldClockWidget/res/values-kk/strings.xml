@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дүниежүзілік сағат</string>
+    <string name="current_time_text">Ағымдағы</string>
+    <string name="another_city_text">Қосу</string>
+    <string name="ime_action_done">Дайын</string>
+    <string name="a_city_selected">Қала таңдалды.</string>
+    <string name="search_city">Қаланы іздеу</string>
+    <string name="next">Келесі</string>
+    <string name="select_right_city">Өкінішке орай, мұндай қала жоқ.</string>
+    <string name="clock_loading">Жүктелуде\u2026</string>
+    <string name="add_city">Жаңа қаланы қосу үшін белгішені басыңыз</string>
+    <string name="add_new_city">Жаңа қала қосу</string>
+    <string name="delete_city">Қаланы жою</string>
+    <string name="delete_city_info">Қала жойылады</string>
+    <string name="has_chosen">таңдалды.</string>
+    <string name="deleteok">Жою</string>
+    <string name="cancel">Болдырмау</string>    
+</resources>

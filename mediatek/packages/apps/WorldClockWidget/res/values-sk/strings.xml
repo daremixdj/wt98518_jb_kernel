@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Svetový čas</string>
+    <string name="current_time_text">"Aktuálne"</string>
+    <string name="another_city_text">"Pridať"</string>
+    <string name="ime_action_done">"Hotovo"</string>
+    <string name="a_city_selected">Vybrané mesto</string>
+    <string name="search_city">Vyhľadať mesto</string>
+    <string name="next">Ďalej</string>
+    <string name="select_right_city">Ľutujeme, ale také mesto neexistuje.</string>
+    <string name="clock_loading">Prebieha načítavanie\u2026</string>
+    <string name="add_city">Ak chcete pridať nové mesto, klepnite na ikonu</string>
+    <string name="add_new_city">Pridať nové mesto</string>
+    <string name="delete_city">Vymazať mesto</string>
+    <string name="delete_city_info">Mesto bude vymazané</string>
+    <string name="has_chosen">je vybraný</string>
+    <string name="deleteok">"Odstrániť"</string>
+    <string name="cancel">"Zrušiť"</string>    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Verdensur</string>
+    <string name="current_time_text">"Aktuel"</string>
+    <string name="another_city_text">"Tilføj"</string>
+    <string name="ime_action_done">"Gem"</string>
+    <string name="a_city_selected">En by er valgt.</string>
+    <string name="search_city">Søg efter by</string>
+    <string name="next">Næste</string>
+    <string name="select_right_city">Denne by findes ikke.</string>
+    <string name="clock_loading">Indlæser\u2026</string>
+    <string name="add_city">Tryk på ikonet for at tilføje en by</string>
+    <string name="add_new_city">Tilføj ny by</string>
+    <string name="delete_city">Slet by</string>
+    <string name="delete_city_info">Byen slettes</string>
+    <string name="has_chosen">er valgt.</string>
+    <string name="deleteok">"Slet"</string>
+    <string name="cancel">"Annuller"</string>    
+</resources>

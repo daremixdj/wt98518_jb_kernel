@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">"Avbryt"</string>
+	<string name="confirm_radio_title">SIM-kort inaktiverat</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> är avstängt. Vill du aktivera detta SIM-kort?</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">Flygplansläge är aktiverat och</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> är avstängt. Vill du stänga av flygplatsläget och aktivera detta SIM-kort?</string>
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">Flygplansläget är på. Vill du stänga av flygplansläget?</string>  
+	<string name="confirm_radio_msg_single">Flygplansläge är nu aktiverat, vill du stänga av det?</string>
+	<string name="confirm_pin_title">SIM låst</string>
+	<string name="confirm_pin_msg">Valt SIM-kort är låst. Lås upp det först.</string>
+	<string name="confirm_simmelock_title">SIM ME låst</string>
+	<string name="confirm_simmelock_msg">Vald SIM-kortplats är låst. Lås upp den först.</string>
+	<string name="confirm_fdn_title">FDN aktiverat</string>
+	<string name="confirm_fdn_msg">Fasta uppringningsnummer är aktiverat.</string>
+	<string name="confirm_roaming_title">Roaming-varning</string>
+	<string name="confirm_roaming_msg">SIM-kortet som du tänker använda roamar nu. Inget lokalt SIM-kort är tillgängligt. Vill du fortsätta?</string>
+  <string name="confirm_roaming_withPrefer_msg">SIM-kortet som du tänker använda roamar nu. Vill du fortsätta via det lokala SIM-kortet?</string>
+  <string name="confirm_roaming_lbutton">Fortsätt</string>
+  <string name="confirm_roaming_rbutton">"Avbryt"</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Lokalt SIM-kort</string>
+  <string name="confirm_roamingWithPrefer_rbutton">Roamande SIM-kort</string>
+	<string name="confirm_roaming_for3Sims_msg">SIM-kortet som du tänker använda roamar nu. Vill du fortsätta?</string>
+	<string name="confirm_radio_lbutton">"Aktivera"</string>
+	<string name="confirm_unlock_lbutton">Lås upp</string>
+	<string name="confirm_unlock_fail">Åtgården avbröts</string>
+	<string name="confirm_turnon_radio_fail">Åtgården avbröts</string>
+	<string name="confirm_permit_roaming_fail">Du kan avbryta denna åtgärd på det roamande SIM-kortet</string>
+	<string name="confirm_sim_locked_message">SIM-kortet har låsts permanent</string>
+  <string name="confirm_slot_locked_message">Kortplatsen har låsts permanent</string>
+	<string name="button_yes">"Ja"</string>  
+	<string name="button_no">"Nej"</string>  
+</resources>

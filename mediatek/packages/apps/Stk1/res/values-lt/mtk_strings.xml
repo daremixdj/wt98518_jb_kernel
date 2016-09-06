@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources>
+    
+    <string name="appI_name">SIM1 įrankių komplektas</string>
+    <string name="appII_name">SIM2 įrankių komplektas</string>
+    <string name="appIII_name">SIM3 įrankių komplektas</string>
+    <string name="appIV_name">SIM4 įrankių komplektas</string>
+    <string name="lable_not_available">Programa ne įrengta</string>
+    
+    <string name="lable_display_text">Rodyti tekstą</string>
+    <string name="lable_get_inkey">Gauti raktą</string>
+    <string name="lable_get_input">Gauti įvestį</string>
+    <string name="lable_launch_browser">Paleisti naršyklę</string>
+    <string name="lable_play_tone">Atkūrimo tonas</string>
+    <string name="lable_refresh">"Atnaujinti"</string>
+    <string name="lable_select_item">Pasirinkite elementą</string>
+    <string name="lable_send_ss">Siųsti SS</string>
+    <string name="lable_send_ussd">Siųsti USSD</string>
+    <string name="lable_send_sms">"siųsti SMS"</string>
+    <string name="lable_send_dtmf">Siųsti DTMF</string>
+    <string name="lable_setup_event_list">Sudaryti įvykių sąrašą</string>
+    <string name="lable_setup_idle_modetext">Kurti nenaudojimo režimo tekstą</string>
+    <string name="lable_setup_menu">Sudaryti meniu</string>
+    <string name="lable_setup_call">Nustatyti skambutį</string>
+    <string name="lable_more_time">Daugiau laiko</string>
+    <string name="lable_poll_interval">Apklausiamasis duomenų perdavimo intervalas</string>
+    <string name="lable_polling_off">Apklausiamasis duomenų perdavimas išjungtas</string>
+    <string name="lable_provide_local_information">Pateikti vietos informacija</string>
+    <string name="lable_timer_management">Laikmačio valdymas</string>
+    <string name="lable_perform_card_apdu">atlikti kortelės APDU</string>
+    <string name="lable_power_on_card">Įjungti kortelę</string>
+    <string name="lable_power_off_card">Išjungti kortelę</string>
+    <string name="lable_get_reader_status">Gauti skaitytuvo būseną</string>
+    <string name="lable_run_at_command">Vykdyti AT komandą</string>
+    <string name="lable_language_notification">Pranešimas apie kalbą</string>
+    <string name="lable_open_channel">Atidaryti kanalą</string>
+    <string name="lable_close_channel">Uždaryti kanalą</string>
+    <string name="lable_receive_data">Gauti duomenis</string>
+    <string name="lable_send_data">Siųsti duomenis</string>
+    <string name="lable_get_channel_status">Gauti kanalo būseną</string>
+    <string name="lable_service_search">Paslaugos paieška</string>
+    <string name="lable_get_service_information">Gauti informaciją apie paslaugą</string>
+    <string name="lable_declare_service">Deklaruoti paslaugą</string>
+    <string name="lable_set_frame">Nustatyti sistemą</string>
+    <string name="lable_get_frame_status">Gauti sistemos būseną</string>
+    <string name="lable_retrieve_multimedia_message">Išrinkti multimedijos pranešimą</string>
+    <string name="lable_submit_multimedia_message">Pateikti multimedijos pranešimą</string>
+    <string name="lable_display_multimedia_message">Rodyti multimedijos pranešimą</string>
+    <string name="lable_activate">"Aktyvinti"</string>
+    
+    <string name="action_launch_browser">Paleisti naršyklę</string>
+    <string name="action_setup_call">"rinkti numerį"</string>
+    
+    <string name="lable_busy_on_bip">Programa užimta, nes vykdo BIP komandas; vėliau bandykite dar kartą.</string>
+    
+    <string name="main_menu_not_initialized">Neinicijuotas pagrindinis meniu</string>
+    
+    <string name="lable_busy_on_call">Telefonas užimtas – vyksta pokalbis telefonu; pirmiausiai baikite pokalbį</string>
+    
+    <string name="lable_on_flight_mode">Nepavyko paleisti SIM įrankių komplektą, nes veikia skrydžio režimas.</string>
+    <string name="lable_sim_not_ready">SIM įrankių komplektas neparengtas arba nepalaikomas</string>
+    <string name="no_sim_card_inserted">Įdėkite SIM ir paleiskite SIM įrankių komplektą.</string>
+</resources>

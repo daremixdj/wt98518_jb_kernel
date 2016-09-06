@@ -1,0 +1,23 @@
+obj-$(CONFIG_MTK_SMART_BATTERY) += battery_meter.o battery_common.o
+
+ifeq ($(WT_BQ2022A_BAT_ID_SUPPORT),yes) 
+    obj-y += bq2022a-batid.o
+endif
+
+ifeq ($(MTK_FAN5402_SUPPORT),yes)
+    obj-$(CONFIG_MTK_SMART_BATTERY) += switch_charging.o
+
+else ifeq ($(MTK_FAN5405_SUPPORT),yes)
+    obj-$(CONFIG_MTK_SMART_BATTERY) += switch_charging.o
+
+else
+    ifeq ($(MTK_SWCHR_SUPPORT),yes)
+        obj-$(CONFIG_MTK_SMART_BATTERY) += switch_charging.o
+    else
+        ifeq ($(MTK_BQ24196_SUPPORT),yes)
+            obj-$(CONFIG_MTK_SMART_BATTERY) += switch_charging.o 
+        else
+        obj-$(CONFIG_MTK_SMART_BATTERY) += linear_charging.o
+        endif  
+    endif
+endif

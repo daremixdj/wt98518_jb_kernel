@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	
+	<string name="app_label">"Bluetooth"</string>
+	<string name="app_description">"Bluetooth-profiili pake"</string>
+
+	
+	<string name="bt_base_activity_busy_message">Laadimine. Palun oodake...</string>
+	<string name="bt_base_activity_service_disconnected">Ühendus teenusega katkestatud.</string>
+
+	<string name="bt_base_profile_feature_disabled">"Bluetoothi ei saa kasutada, kuna see on välja lülitatud."</string>
+
+	
+	<string name="bt_share_mgmt_tab_in_title">"Allalaadimine"</string>
+	<string name="bt_share_mgmt_tab_out_title">"Üleslaadimine"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"Tühjenda kõik"</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"Failiedastus"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">"Proovi uuesti"</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"Tühjenda"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"Faili %1$s, mille saatis %2$s, ei võetud vastu."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"Fail %1$s ei saadetud %2$s-le."</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"Fail %1$s saadetud %2$s-le."</string>
+
+	
+	<string name="bt_share_mgmt_notification_ticker">"Üle Bluetoothi jagamise ajalugu"</string>
+	<string name="bt_share_mgmt_notification_title">"Üle Bluetoothi jagamise ajalugu"</string>
+	<string name="bt_share_mgmt_notification_message">"Valige üle Bluetoothi jagamise ajaloo vaatamiseks."</string>
+
+	
+	<string name="bt_share_openfile_title">"Ava fail"</string>
+	<string name="bt_share_openfile_message_invalid_param">"Vigane fail: %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"Tundmatu failitüüp: %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"Faili ei leitud: %1$s"</string>
+	<string name="bt_share_openfile_confirm">"OK"</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Verdensklokke</string>
+    <string name="current_time_text">"Gjeldende"</string>
+    <string name="another_city_text">"Legg til"</string>
+    <string name="ime_action_done">"OK"</string>
+    <string name="a_city_selected">En by er valgt.</string>
+    <string name="search_city">Søk by</string>
+    <string name="next">Neste</string>
+    <string name="select_right_city">Beklager. Det finnes ingen slik by.</string>
+    <string name="clock_loading">Laster inn \u2026</string>
+    <string name="add_city">Trykk på ikonet for å legge til ny by</string>
+    <string name="add_new_city">Legg til by</string>
+    <string name="delete_city">Slett by</string>
+    <string name="delete_city_info">Byen vil bli slettet</string>
+    <string name="has_chosen">har blitt valgt.</string>
+    <string name="deleteok">"Slett"</string>
+    <string name="cancel">"Avbryt"</string>    
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="voice_ui_camera_command_title">Control per veu per a la càmera</string>
+    <string name="voice_ui_phone_command_title">Control per veu per al telèfon</string>
+    <string name="voice_ui_alarm_command_title">Control per veu per a l’alarma</string>
+    <string name="app_name">Ordre de veu</string>
+    <string name="voice_ui_title">"Control per veu"</string>
+    <string name="voice_ui_app_category">"Per a aplicacions"</string>
+    <string name="voice_ui_setting_category">"Configuració"</string>
+    <string name="voice_ui_language_title">"Idioma del control per veu"</string>
+    <string name="incoming_call_app_name">"Telèfon"</string>
+    <string name="alarm_app_name">"Alarma"</string>
+    <string name="camera_app_name">"Càmera"</string>
+    <string name="music_app_name">"Música"</string>
+    <string name="incomming_command_summary_format">Pots dir <xliff:g id="first">%1$s</xliff:g> o <xliff:g id="second">%2$s</xliff:g> per respondre o ignorar una trucada entrant.</string>
+    <string name="alarm_command_summary_format">Pots dir <xliff:g id="first">%1$s</xliff:g> o <xliff:g id="second">%2$s</xliff:g> per controlar l’alarma.</string>
+    <string name="camera_command_summary_format">Pots dir <xliff:g id="first">%1$s</xliff:g> o <xliff:g id="second">%2$s</xliff:g> per fer una captura.</string>
+    <string name="music_command_summary_format">Pots dir <xliff:g id="first">%1$s</xliff:g> i <xliff:g id="second">%2$s</xliff:g> per controlar la reproducció de música.</string>
+    <string name="playback_failed">No s’ha pogut obrir el fitxer.</string>
+    <string name="voice_ui_commands">ORDRES</string>
+</resources>

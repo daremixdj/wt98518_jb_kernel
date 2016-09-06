@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="activity_not_found" product="tablet">La aplicación no está instalada en el dispositivo.</string>  
+    <string name="activity_not_found" product="default">La aplicación no está instalada en el teléfono.</string>    
+    <string name="simlock_toolkit">"Kit de herramientas SIM"</string>
+    
+    <string name="no_sim_card_inserted" product="default">Inserte la tarjeta SIM para iniciar el Kit de herramientas SIM.</string>
+    <string name="airplane_mode_on" product="default">No se puede iniciar el Kit de herramientas SIM porque el modo de avión está activado.</string>
+    <string name="lable_sim_not_ready" product="default">El Kit de herramientas SIM no está preparado o no se admite.</string>
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">सिम टूलकिट</string>
+    <string name="activity_not_found" product="tablet">आपके उपकरण पर एप्लिकेशन स्थापित नहीं है।</string>  
+    <string name="activity_not_found" product="default">अनुप्रयोग आपके फ़ोन पर स्थापित नहीं हैं.</string>
+    <string name="simlock_toolkit">सिम टूलकिट</string>
+    <string name="no_sim_card_inserted" product="default">सिम टूलकिट लांच करने के लिए सिम डालें.</string>
+    <string name="airplane_mode_on" product="default">हवाई जहाज मोड के बाद से सिम टूलकिट शुरू करने में विफल रही है.</string>
+    <string name="lable_sim_not_ready">सिम टूलकिट तैयार है या असमर्थित नहीं है</string>
+    
+</resources>

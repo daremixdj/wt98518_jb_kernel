@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Տեսանվագարկիչ"</string>
+    <string name="scanning">"Սկանավորում է SD քարտը..."</string>
+    <string name="sdcard_missing_message">"Ձեր հեռախոսի մեջ SD քարտ զետեղված չէ:"</string>
+    <string name="video_list_empty">"Տեսանյութեր չկան:"</string>
+    <string name="detail_title">"Անվանում ՝ %1$s"</string>
+    <string name="detail_date_taken">"Վերցված է ՝ %1$s"</string>
+    <string name="detail_path">"Ուղի ՝ %1$s"</string>
+    <string name="detail_filesize">"Ֆայլի չափ ՝ %1$s"</string>
+    <string name="detail_duration">"Տևողություն ՝ %1$s"</string>
+    <string name="media_detail">"Մանրամասներ"</string>
+    <string name="delete">"Ջնջել"</string>
+    <string name="delete_tip">"Ջնջե՞լ %1$s-ը:"</string>
+    <string name="delete_progress">"Ջնջվում է %1$s-ը ..."</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources>
+    
+    <string name="appI_name">Алат за SIM1 </string>
+    <string name="appII_name">Алат за SIM2</string>
+    <string name="appIII_name">Алат за SIM3</string>
+    <string name="appIV_name">Алат за SIMI4</string>
+    <string name="lable_not_available">Апликација није\ инсталирана</string>
+    
+    <string name="lable_display_text">Прикажи текст</string>
+    <string name="lable_get_inkey">Набави улазни кључ</string>
+    <string name="lable_get_input">Нађи унос</string>
+    <string name="lable_launch_browser">Покрени прегледач</string>
+    <string name="lable_play_tone">Репродукуј тон</string>
+    <string name="lable_refresh">Освежи</string>
+    <string name="lable_select_item">Одаберите ставку</string>
+    <string name="lable_send_ss">Пошаљи SS</string>
+    <string name="lable_send_ussd">Пошаљи USSD</string>
+    <string name="lable_send_sms">Пошаљи SMS</string>
+    <string name="lable_send_dtmf">Пошаљи DTMF</string>
+    <string name="lable_setup_event_list">Подеси списак догађаја</string>
+    <string name="lable_setup_idle_modetext">Подесите неактиван режим за текст</string>
+    <string name="lable_setup_menu">Подесите мени</string>
+    <string name="lable_setup_call">Подесите позив</string>
+    <string name="lable_more_time">Више времена</string>
+    <string name="lable_poll_interval">Интервал прозивања</string>
+    <string name="lable_polling_off">Прозивање искључено</string>
+    <string name="lable_provide_local_information">Даје локалне информације</string>
+    <string name="lable_timer_management">Управљање тајмером</string>
+    <string name="lable_perform_card_apdu">обави APDU картице</string>
+    <string name="lable_power_on_card">Укључи картицу</string>
+    <string name="lable_power_off_card">Искључи картицу</string>
+    <string name="lable_get_reader_status">Прибави статус читача</string>
+    <string name="lable_run_at_command">Покрени АТ наредбу</string>
+    <string name="lable_language_notification">Обавештење о језику</string>
+    <string name="lable_open_channel">Отвори канал</string>
+    <string name="lable_close_channel">Затвори канал</string>
+    <string name="lable_receive_data">Прихвати податке</string>
+    <string name="lable_send_data">Пошаљи податке</string>
+    <string name="lable_get_channel_status">Прибави статус канала</string>
+    <string name="lable_service_search">Тражење услуге</string>
+    <string name="lable_get_service_information">Прибави податке о услузи</string>
+    <string name="lable_declare_service">Деклариши услугу</string>
+    <string name="lable_set_frame">Подеси оквир</string>
+    <string name="lable_get_frame_status">Прибави статус оквира</string>
+    <string name="lable_retrieve_multimedia_message">Прибави мултимедијску поруку</string>
+    <string name="lable_submit_multimedia_message">Пошаљи мултимедијску поруку</string>
+    <string name="lable_display_multimedia_message">Прикажи мултимедијску поруку</string>
+    <string name="lable_activate">Активирај</string>
+    
+    <string name="action_launch_browser">Покрени прегледач</string>
+    <string name="action_setup_call">"бирање"</string>
+    
+    <string name="lable_busy_on_bip">Апликација је заузета BIP наредбама, покушајте поновно касније.</string>
+    
+    <string name="main_menu_not_initialized">Главни мени није покренут</string>
+    
+    <string name="lable_busy_on_call">Телефон је заузет позивом, прво завршите позив</string>
+    
+    <string name="lable_on_flight_mode">Не може да се покрене SIM алат јер је укључен режим за лет.</string>
+    <string name="lable_sim_not_ready">SIM Toolkit није спреман или није подржан</string>
+    <string name="no_sim_card_inserted">Убаците SIM картицу да бисте покренули SIM Toolkit.</string>
+</resources>

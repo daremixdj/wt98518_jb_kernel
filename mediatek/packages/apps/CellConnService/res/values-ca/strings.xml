@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">D’acord</string>
+	<string name="button_cancel">"Cancel·la"</string>
+	<string name="confirm_radio_title">SIM desconnectada</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		està apagat ara. Voleu engegar-lo amb aquesta SIM?</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">El mode de vol està actiu i</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		està desconnectat. Voleu desconnectar el mode de vol i activar aquesta SIM?</string>
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">El mode de vol està actiu. Voleu apagar-lo?</string>  
+	<string name="confirm_radio_msg_single">El mode avió està activat, voleu desactivar-lo?</string>
+	<string name="confirm_pin_title">SIM bloquejada</string>
+	<string name="confirm_pin_msg">La SIM seleccionada està bloquejada, desbloquegeu-la abans</string>
+	<string name="confirm_simmelock_title">SIM ME bloquejada</string>
+	<string name="confirm_simmelock_msg">La ranura de la SIM seleccionada està bloquejada, desbloquegeu-la abans.</string>
+	<string name="confirm_fdn_title">NMF activat</string>
+	<string name="confirm_fdn_msg">Els números de marcació fixa estan activats</string>
+	<string name="confirm_roaming_title">Advertència de roaming</string>
+	<string name="confirm_roaming_msg">La SIM que voleu fer servir té roaming activat. No hi ha cap targeta SIM disponible. Voleu continuar?</string>
+  <string name="confirm_roaming_withPrefer_msg">La SIM que voleu fer servir té roaming activat. Voleu continuar amb la SIM nacional?</string>
+  <string name="confirm_roaming_lbutton">Continua</string>
+  <string name="confirm_roaming_rbutton">Cancel·la</string>
+  <string name="confirm_roamingWithPrefer_lbutton">SIM nacional</string>
+  <string name="confirm_roamingWithPrefer_rbutton">SIM en roaming</string>
+	<string name="confirm_roaming_for3Sims_msg">La SIM que voleu fer servir té roaming activat. Voleu continuar?</string>
+	<string name="confirm_radio_lbutton">Engega</string>
+	<string name="confirm_unlock_lbutton">Desbloqueja</string>
+	<string name="confirm_unlock_fail">Operació cancel·lada</string>
+	<string name="confirm_turnon_radio_fail">Operació cancel·lada</string>
+	<string name="confirm_permit_roaming_fail">"Cancel·leu l'acció amb la SIM en roaming"</string>
+	<string name="confirm_sim_locked_message">"La SIM s'ha bloquejat permanentment"</string>
+  <string name="confirm_slot_locked_message">"La ranura s'ha bloquejat permanentment"</string>
+	<string name="button_yes">"Sí"</string>  
+	<string name="button_no">"No"</string>  
+</resources>

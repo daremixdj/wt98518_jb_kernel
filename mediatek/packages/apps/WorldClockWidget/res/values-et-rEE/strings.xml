@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maailmakell</string>
+    <string name="current_time_text">Praegune</string>
+    <string name="another_city_text">Lisa</string>
+    <string name="ime_action_done">Valmis</string>
+    <string name="a_city_selected">Linn valitud.</string>
+    <string name="search_city">Otsi linna</string>
+    <string name="next">Järgmine</string>
+    <string name="select_right_city">Kahjuks sellist linna pole.</string>
+    <string name="clock_loading">Laadimine\u2026</string>
+    <string name="add_city">Uue linna lisamiseks vajuta ikooni</string>
+    <string name="add_new_city">Lisa uus linn</string>
+    <string name="delete_city">Kustuta linn</string>
+    <string name="delete_city_info">Linn kustutatakse</string>
+    <string name="has_chosen">on valitud.</string>
+    <string name="deleteok">Kustuta</string>
+    <string name="cancel">Tühista</string>    
+</resources>

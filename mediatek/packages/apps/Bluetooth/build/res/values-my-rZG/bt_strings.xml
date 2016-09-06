@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	
+	<string name="app_label">"ဘလူးတု(သ္)"</string>
+	<string name="app_description">"ဘလူးတု(သ္)ပ႐ိုဖိုင္ ပက္ေက့အစု"</string>
+
+	
+	<string name="bt_base_activity_busy_message">ဖြင့္ေနဆဲ။ ေစာင့္ဆိုင္းပါ…</string>
+	<string name="bt_base_activity_service_disconnected">ဝန္ေဆာင္မႈဆားဗစ္ ခ်ိတ္ဆက္မႈအား ျဖဳတ္ၿပီး။</string>
+
+	<string name="bt_base_profile_feature_disabled">"ပိတ္ထားသည့္ ဘလူးတု(သ္) အဆင္အျပင္အား အသံုးမျပဳႏိုင္ပါ။"</string>
+
+	
+	<string name="bt_share_mgmt_tab_in_title">"ေဒါင္းလုဒ္လုပ္ပါ"</string>
+	<string name="bt_share_mgmt_tab_out_title">"အပ္လုဒ္လုပ္ပါ"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"အားလံုးကို ရွင္းလင္းပါ"</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"ဖိုင္ေပးပို႔မႈ"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">"ျပန္လည္ႀကိဳးစားပါ"</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"ရွင္းလင္းပါ"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"%2$s မွ ဖိုင္ %1$s မရရွိပါ။"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"ဖိုင္ %1$s အား %2$s သို႔ မေပးပို႔ထားပါ။"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"ဖိုင္ %1$s အား %2$s သို႔ မေပးပို႔ထားပါ။"</string>
+
+	
+	<string name="bt_share_mgmt_notification_ticker">"ဘလူးတု(သ္)ေဝမွ်ခ်က္မွတ္တမ္း"</string>
+	<string name="bt_share_mgmt_notification_title">"ဘလူးတု(သ္) ေဝမွ်ခ်က္မွတ္တမ္း"</string>
+	<string name="bt_share_mgmt_notification_message">"ဘလူးတု(သ္) ေဝမွ်ခ်က္မွတ္တမ္း ၾကည့္ရန္ ေရြးခ်ယ္ပါ။"</string>
+
+	
+	<string name="bt_share_openfile_title">"ဖိုင္ဖြင့္ပါ"</string>
+	<string name="bt_share_openfile_message_invalid_param">"ဖိုင္အသံုးမရွိပါ- %1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"အေထာက္အပံ့ မေပးေသာ ဖိုင္အမ်ဳိးအစား- %1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"ဖိုင္ရွာမေတြ႕ပါ: %1$s"</string>
+	<string name="bt_share_openfile_confirm">"လုပ္မည္"</string>
+
+</resources>

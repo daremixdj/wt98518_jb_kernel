@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="bt_bpp_orientations">
+		<item>"Na výšku"</item>
+		<item>"Na šírku"</item>
+		<item>"reverzný - na šírku"</item>
+		<item>"reverzný - na výšku"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+	</string-array>
+	<string-array name="bt_bpp_sidesettings">
+		<item>"Jednostranný"</item>
+		<item>"Obojstranný dlhý okraj"</item>
+		<item>"Obojstranný krátky okraj"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+	</string-array>
+	<string-array name="bt_bpp_qualitys">
+		<item>"Normálne"</item>
+		<item>"Návrh"</item>
+		<item>"Vysoký"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+		<item>"Neznáme"</item>
+	</string-array>
+	<string-array name="bt_bpp_entry_error">
+		<item>"žiadna chyba"</item>
+		<item>"Nepodarilo sa vytvoriť súbor v-card"</item>
+		<item>"Nepodporovaný formát obrazu"</item>
+	</string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="activity_not_found">Ծրագիրը տեղադրված չէ ձեր հեռախոսի վրա:</string>
+    <string name="no_sim_card_inserted" product="default">Խնդրում ենք զետեղել SIM քարտը SIM քարտի գործիքների հավաքածուն թողարկելու համար:</string>
+    <string name="airplane_mode_on" product="default">Անհնար է թողարկել SIM քարտի գործիքների հավաքածուն, քանի որ միացված է ինքնաթիռի ռեժիմը:</string>
+    <string name="lable_sim_not_ready" product="default">SIM քարտի գործիքների հավաքածուն պատրաստ չէ կամ չի աջակցվում</string>
+    
+</resources>

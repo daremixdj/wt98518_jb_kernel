@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="bt_bip_app_name">"Transferència d'imatges per Bluetooth"</string>
+
+
+	<string name="bt_bipi_push_confirmation">"Confirmació d'enviament d'imatges"</string>
+	<string name="bt_bipi_unsupported_format">"El receptor no admet la codificació. \nVoleu continuar amb l'enviament?"</string>
+	<string name="bt_bipi_push_confirmation_ok">"Accepta"</string>
+	<string name="bt_bipi_push_confirmation_cancel">"Cancel·la"</string>
+	<string name="bt_bip_transmitting_dialog_hide">"Amaga"</string>
+	<string name="bt_bip_transmitting_dialog_cancel">"Cancel·la"</string>
+	<string name="bt_bip_transmitting_dialog_ok">"Accepta"</string>
+	<string name="bt_bip_transmitting_dialog_yes">"Sí"</string>
+	<string name="bt_bip_transmitting_dialog_no">"No"</string>
+	<string name="bt_bip_transmitting">"Enviant imatge %1$s"</string>
+	<string name="bt_bip_transmitting_successful">"La imatge %1$s s'ha enviat"</string>
+	<string name="bt_bip_transmitting_fail">"No s'ha pogut enviar la imatge %1$s"</string>
+	<string name="bt_bip_cancel_pending_job">"Voleu cancel·lar la transmissió pendent?"</string>
+	<string name="bt_bip_pending_job">"Enviar %1$s (pendent)"</string>
+	<string name="bt_bipr_incoming_request">"Sol·licitud d'imatge rebuda"</string>
+	<string name="bt_bipr_incoming_request_description">"Seleccioneu per rebre %1$s"</string>
+	<string name="bt_bipr_accept_title">"Imatge entrant"</string>
+	<string name="bt_bipr_accept_content">"Voleu acceptar "%1$s (%2$sKB)" des de "%3$s" ?"</string>
+	
+	<string name="bt_bipr_accept_always">"Acceptar sempre?"</string>
+	
+
+	<string name="bt_bipr_accept_yes">"Sí"</string>
+	<string name="bt_bipr_accept_no">"No"</string>
+	<string name="bt_bip_receiving">"Rebent imatge %1$s"</string>
+	<string name="bt_bip_receiving_successful">"La imatge %1$s s'ha rebut.\nVoleu veure-la?"</string>
+	<string name="bt_bip_receiving_fail">"No s'ha pogut rebre la imatge %1$s"</string>
+	<string name="bt_bip_toast_connect_fail">"Errada de connexió"</string>
+	<string name="bt_bip_toast_storage_unmounted">"Comproveu si la targeta SD està preparada"</string>
+	<string name="bt_bip_toast_sending_object">"Enviant imatge %1$s"</string>
+	<string name="bt_bip_auth_password">"Contrasenya:"</string>
+	<string name="bt_bip_auth_userid">"ID:"</string>
+	<string name="bt_bip_auth_ok">"Accepta"</string>
+	<string name="bt_bip_auth_cancel">"Cancel·la"</string>
+
+</resources>

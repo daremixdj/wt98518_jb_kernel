@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">Келесі</string>
+    <string name="scroll_left_bar_title">Басқа суретке түсіру режимдерін қарап шығу үшін айналдырып шығыңыз</string>
+    <string name="zoome_title">Масштабтау</string>
+</resources>

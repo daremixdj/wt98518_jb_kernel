@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="activity_not_found">"Programmet är inte installerat på din telefon."</string>
+    
+    <string name="sim_toolkit">"SIM Toolkit"</string>
+    <string name="no_sim_card_inserted" product="default">Sätt i SIM-kortet för att starta SIM Toolkit.</string>
+    <string name="airplane_mode_on" product="default">Det går inte att starta SIM Toolkit eftersom flygplansläget är på.</string>
+    <string name="lable_sim_not_ready" product="default">SIM Toolkit är inte redo eller inte stöds</string>
+    
+</resources>

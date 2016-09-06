@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	
+	<string name="app_label">"藍芽"</string>
+	<string name="app_description">"藍芽配置套裝"</string>
+
+	
+	<string name="bt_base_activity_busy_message">正在載入。請稍候…</string>
+	<string name="bt_base_activity_service_disconnected">服務已中斷連接！</string>
+
+	<string name="bt_base_profile_feature_disabled">"無法使用已停用的藍芽功能。"</string>
+
+	
+	<string name="bt_share_mgmt_tab_in_title">"下載"</string>
+	<string name="bt_share_mgmt_tab_out_title">"上載"</string>
+	<string name="bt_share_mgmt_tab_menu_clear">"全部清除"</string>
+	<string name="bt_share_mgmt_tab_dialog_title">"檔案傳輸"</string>
+	<string name="bt_share_mgmt_tab_dialog_yes">"請再試一次"</string>
+	<string name="bt_share_mgmt_tab_dialog_no">"清除"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_recfail">"尚未收到來自 %2$s 的檔案 %1$s。"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_resend">"檔案 %1$s 沒有傳送給 %2$s。"</string>
+	<string name="bt_share_mgmt_tab_dialog_message_sent">"檔案 %1$s 已傳送給 %2$s。"</string>
+
+	
+	<string name="bt_share_mgmt_notification_ticker">"藍芽分享歷史"</string>
+	<string name="bt_share_mgmt_notification_title">"藍芽分享歷史"</string>
+	<string name="bt_share_mgmt_notification_message">"勾選以檢視藍芽分享歷史。"</string>
+
+	
+	<string name="bt_share_openfile_title">"開啟檔案"</string>
+	<string name="bt_share_openfile_message_invalid_param">"無效檔案：%1$s (%2$s)"</string>
+	<string name="bt_share_openfile_message_unsupported_type">"不支援檔案類型：%1$s"</string>
+	<string name="bt_share_openfile_message_resource_not_found">"找不到檔案：%1$s"</string>
+	<string name="bt_share_openfile_confirm">"確定"</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maailmankello</string>
+    <string name="current_time_text">"Nykyinen"</string>
+    <string name="another_city_text">"Lisää"</string>
+    <string name="ime_action_done">"Valmis"</string>
+    <string name="a_city_selected">Kaupunki valittu.</string>
+    <string name="search_city">Hae kaupunki</string>
+    <string name="next">Seuraava</string>
+    <string name="select_right_city">Pahoittelut. Sellaista kaupunkia ei ole.</string>
+    <string name="clock_loading">Ladataan\u2026</string>
+    <string name="add_city">Paina kuvaketta lisätäksesi uuden kaupungin</string>
+    <string name="add_new_city">Lisää uusi kaupunki</string>
+    <string name="delete_city">Poista kaupunki</string>
+    <string name="delete_city_info">Kaupunki poistetaan</string>
+    <string name="has_chosen">on valittu.</string>
+    <string name="deleteok">"Poista"</string>
+    <string name="cancel">"Peruuta"</string>    
+</resources>

@@ -1,0 +1,225 @@
+From f6f23afa0c7185c02ee4c8b5ed8492b967e1fe2b Mon Sep 17 00:00:00 2001
+From: zhangweibo <zhangweibo@wingtech.net>
+Date: Thu, 11 Jul 2013 23:00:34 +0800
+Subject: [PATCH] =?UTF-8?q?=E6=8F=90=E4=BA=A4wingcust=E7=BC=96=E8=AF=91=E6?=
+ =?UTF-8?q?=9C=BA=E5=88=B6?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Change-Id: I6792921dacab44c7f3122053b290174a0c75904f
+---
+ makeMtk         |  26 ++++++++++++
+ tools/listP.pl  |  26 ++++++++++++
+ tools/wtCust.pl | 120 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 172 insertions(+)
+ create mode 100755 tools/wtCust.pl
+
+diff --git a/makeMtk b/makeMtk
+index 8598b06..b14e7b0 100755
+--- a/makeMtk
++++ b/makeMtk
+@@ -149,6 +149,32 @@ while ($#ARGV != -1)
+   {
+     $project = lc($ARGV[0]);
+     $project = "generic" if ($project eq "emulator");
++
++    #add by an for wt project manager
++    if (($project ne "emulator") && ($project ne "banyan_addon") && (-e "wingcust/${project}"))
++    {
++        $wtRet = 0;
++        die "Can NOT recognize project name :${project}\n"
++            . "./wingcust/${project} dose not exist! Please asking zhangweibo\@wingtech.com for help! \n"
++        if (!-e "wingcust/${project}");
++
++        if(lc($ARGV[1])=~/^c=(\S+)/ )
++        {
++           $custname = $1;
++           shift(@ARGV);
++           $wtRet = &p_system("perl mediatek/build/tools/wtCust.pl $project  $custname");
++        }
++        else
++        {
++           $wtRet = &p_system("perl mediatek/build/tools/wtCust.pl $project");
++        } 
++        
++        die "Generate customization FAIL!!"
++        if($wtRet);
++
++    }  
++    #end an 
++
+     if (!-e "mediatek/config/${project}/ProjectConfig.mk")
+     {
+       if (-e $ini)
+diff --git a/tools/listP.pl b/tools/listP.pl
+index b291182..0c48d48 100755
+--- a/tools/listP.pl
++++ b/tools/listP.pl
+@@ -37,6 +37,9 @@ $pmPath = "mediatek/config";
+ chdir($pmPath);
+ @files = <*>;
+ $i = 0;
++
++print "  Projects in Mediatek dir:\n";
++
+ foreach $f (@files) {
+     next if (! -e $f."/ProjectConfig.mk");
+     next if ($f =~ /^common|^mt\d+$/);
+@@ -53,4 +56,27 @@ foreach $f (@files) {
+ #    print "\n";
+ #}
+ 
++print "  Project in wingcust dir:\n";
++
++$pmPath = "../../wingcust";
++chdir($pmPath);
++
++@files = <*>;
++$i = 0;
++foreach $f (@files) {
++    $f =~ /(.*)/;
++    if(-d $f)
++    {
++    	  print $1;
++        chdir($f);
++        @subprj = <*>;
++        foreach $f (@subprj) {
++           next if ($f =~ /base|lk|product/);
++           $f =~ /(.*)/;
++           print "  c=$1  " if(-d $f)
++        }
++        chdir("../");
++    }
++    print "\n";
++}
+ exit 0;
+diff --git a/tools/wtCust.pl b/tools/wtCust.pl
+new file mode 100755
+index 0000000..d79ed27
+--- /dev/null
++++ b/tools/wtCust.pl
+@@ -0,0 +1,120 @@
++#!/usr/bin/perl
++
++$prj = $ARGV[0];
++$cust = "";
++$cust = $ARGV[1] if($#ARGV == 1);
++
++
++$custdir = "./wingcust/${prj}";
++$ConfigPath = "./mediatek/config/${prj}";
++$CustomPath = "./mediatek/custom/${prj}";
++$VendorPath = "./vendor/mediatek/${prj}";
++$VendorFile = "$custdir/base/vendor/config.ini";
++$GMSPath = "./vendor";
++
++print "prj=${prj}, cust=${cust}\n";
++
++
++#copy customers's  config to mediatk/config
++if(-e  "${ConfigPath}")
++{
++   system("rm -rf ${ConfigPath}");
++}
++system("cp -a ${custdir}/base/config ${ConfigPath}");
++if ($cust ne "")
++{
++    system("cp -a ${custdir}/${cust}/config/* ${ConfigPath}") if (-e "${custdir}/${cust}/config");
++}
++
++#copy customers's custom to /mediatek/custom
++if(-e "${CustomPath}")
++{
++   system("rm -rf ${CustomPath}");
++}
++system("cp -a ${custdir}/base/custom  ${CustomPath}");
++if ($cust ne "")
++{
++    system("cp -a ${custdir}/${cust}/custom/* ${CustomPath}") if (-e "${custdir}/${cust}/custom");
++}
++
++#copy customers's gms to /vendor/google
++if(-e "${GMSPath}/google")
++{
++   system("rm -rf ${GMSPath}/google");
++}
++if (-e "${custdir}/base/gms")
++{
++    system("cp -a ./vendor/gms/google  ${GMSPath}");
++    system("cp -a ${custdir}/base/gms/google  ${GMSPath}");
++}
++if ($cust ne "")
++{
++    system("cp -a ./vendor/gms/google  ${GMSPath}");
++    system("cp -a ${custdir}/${cust}/gms/google ${GMSPath}") if (-e "${custdir}/${cust}/gms/google");
++}
++
++
++#copy platform's vendor to ./vendor/mediatek/${project} by config.ini at wingcust/${prj}/base/vendor dir
++if(-e "${VendorPath}")
++{
++   system("rm -rf ${VendorPath}");
++}
++system("mkdir ${VendorPath}");
++if(-e "$VendorFile")
++{
++	  my @del_list;
++    open( V_FILE, "<$VendorFile") or die "can not open $VendorFile:$!\n";
++
++    while(<V_FILE>)
++    {
++	      chomp;
++	      if (/^\s*parents\s*=\s*(\S+)/) 
++	      {
++	      	$parentsProject = $1;
++	      }
++	      if (/^\s*del\s*=\s*(\S+)/) 
++	      {
++	      	push @del_list,$1;
++	      }  
++    }
++    close V_FILE;
++
++    die "Project have vendor config.ini but parentsProject NOT defined!"
++        if(!$parentsProject);
++    die "${parentsProject} not exist!"
++        if(!-d "./vendor/mediatek/${parentsProject}");  
++ 
++	  #copy parents dir 
++    system("cp -a \\./vendor/mediatek/${parentsProject}/*  ${VendorPath}");
++    system("mv  ${VendorPath}/artifacts/out/target/product/${parentsProject}  ${VendorPath}/artifacts/out/target/product/${prj}");
++	
++	  # del file not need
++    foreach my $delfile (@del_list) {
++        system("rm -rvf ${VendorPath}/${delfile}");
++    }
++	
++}
++#copy customers's vendor to ./vendor/mediatek/${project}
++{
++    system("cp -a ${custdir}/base/vendor/*  ${VendorPath}");
++    if ($cust ne "")
++    {
++	  	  system("cp -a ${custdir}/${cust}/vendor/* ${VendorPath}") if (-e "${custdir}/${cust}/vendor");
++    }
++}
++
++#copy lk&product ${project}.mk
++system("cp -f ${custdir}/product/${prj}.mk  ./build/target/product/${prj}.mk");
++if(-e "${custdir}/${cust}/product/${prj}.mk")
++{
++	system("cp -f ${custdir}/${cust}/product/${prj}.mk  ./build/target/product/${prj}.mk");
++}
++if(-e "${custdir}/${cust}/gms/google/products/gms.mk")
++{
++	system("cp -f ${custdir}/${cust}/gms/google/products/gms.mk  ${GMSPath}/google/products/gms.mk");
++}
++
++system("cp -f ${custdir}/lk/${prj}.mk  ./bootable/bootloader/lk/project/${prj}.mk");
++#add for lk lcm  ask for jinzengwen
++system("cp -a ${CustomPath}/kernel/lcm/ ${CustomPath}/lk/lcm") if (-e "${CustomPath}/kernel/lcm");
++exit 0;
+-- 
+1.8.2
+

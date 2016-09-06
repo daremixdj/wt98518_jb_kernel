@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">次へ</string>
+    <string name="scroll_left_bar_title">スクロールすると、さらに多くのキャプチャーモードが見られます</string>
+    <string name="zoome_title">拡大/縮小</string>
+</resources>

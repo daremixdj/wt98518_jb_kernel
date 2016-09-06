@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">Oddajnik FM</string>
+    <string name="dlg_seek_title">"Iskanje"</string>
+    <string name="dlg_search_text">Iskanje nezasedenih kanalov, počakajte ...</string>
+    <string name="advanced_title">Ročno nastavljanje frekvence</string>
+    <string name="text_input_frequency">Vnesite želeno frekvenco</string>
+	
+    <string name="text_ok">OK</string>
+    <string name="text_auto_search">Samodejno iskanje nezasedenih kanalov</string>
+    <string name="text_search">"Iskanje"</string>
+    <string name="toast_plugout_earphone">Najprej izklopite slušalko.</string>
+    <string name="toast_input_error">Zadnji vnos ni veljaven, veljavna vrednost je 0 ali 5.</string>
+</resources>

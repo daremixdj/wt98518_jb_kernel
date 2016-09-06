@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Världsklocka</string>
+    <string name="current_time_text">"Aktuell"</string>
+    <string name="another_city_text">"Lägg till"</string>
+    <string name="ime_action_done">"Färdig"</string>
+    <string name="a_city_selected">En stad vald.</string>
+    <string name="search_city">Sök stad</string>
+    <string name="next">Nästa</string>
+    <string name="select_right_city">Det finns ingen sådan stad.</string>
+    <string name="clock_loading">Laddar\u2026</string>
+    <string name="add_city">Tryck på ikonen för att lägga till en ny stad</string>
+    <string name="add_new_city">Lägg till ny stad</string>
+    <string name="delete_city">Radera stad</string>
+    <string name="delete_city_info">Staden kommer att raderas</string>
+    <string name="has_chosen">har valts.</string>
+    <string name="deleteok">"Delete"</string>
+    <string name="cancel">"Avbryt"</string>    
+</resources>

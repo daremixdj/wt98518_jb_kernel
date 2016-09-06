@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">Հաջորդը</string>
+    <string name="scroll_left_bar_title">Որորել՝ դիտելու համար ավելի շատ կորզման ռեժիմներ</string>
+    <string name="zoome_title">Խոշորացնել/փոքրացնել</string>
+</resources>

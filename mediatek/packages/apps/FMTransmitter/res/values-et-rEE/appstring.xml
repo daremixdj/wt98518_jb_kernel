@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">FM saatja</string>
+    <string name="dlg_seek_title">Otsimine</string>
+    <string name="dlg_search_text">Otsin hõivamata kanaleid, palun oota...</string>
+    <string name="advanced_title">Sageduse käsitsi määramine</string>
+    <string name="text_input_frequency">Sisesta soovitud sagedus</string>
+	
+    <string name="text_ok">OK</string>
+    <string name="text_auto_search">Hõivamata kanalite automaatne otsing</string>
+    <string name="text_search">Otsi</string>
+    <string name="toast_plugout_earphone">Ühenda kõigepealt lahti oma kõrvaklapid.</string>
+    <string name="toast_input_error">Viimane vigane sisestus, õige väärtus on 0 või 5.</string>
+</resources>

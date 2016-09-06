@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">區域連接服務</string>
+	<string name="button_ok">Ok</string>
+	<string name="button_cancel">取消</string>
+	<string name="confirm_radio_title">SIM 已關閉</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>		現已關閉。您想開啟此 SIM 卡嗎？</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">飛行模式已開啟</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>		現已關閉。您想關閉飛行模式並開啟此 SIM 卡嗎？</string>
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">飛行模式已開啟。您想關閉飛行模式嗎？</string>  
+	<string name="confirm_radio_msg_single">飛行模式已開啟，您要關閉此模式嗎？</string>
+	<string name="confirm_pin_title">SIM 已鎖定</string>
+	<string name="confirm_pin_msg">已選的 SIM 卡現已鎖定。請先		解除鎖定。</string>
+	<string name="confirm_simmelock_title">SIM ME 已鎖定</string>
+	<string name="confirm_simmelock_msg">已選的 SIM 插槽現已鎖定。請先		解除鎖定。</string>
+	<string name="confirm_fdn_title">FDN 已啟用</string>
+	<string name="confirm_fdn_msg">已啟用固定號碼撥號。</string>
+	<string name="confirm_roaming_title">漫遊警告</string>
+	<string name="confirm_roaming_msg">您即將使用的 SIM 卡		現正漫遊。現在沒有本地 SIM 卡可供使用。您要繼續嗎？</string>
+  <string name="confirm_roaming_withPrefer_msg">您即將使用的 SIM 卡現正漫遊。您要透過本地 SIM 卡繼續嗎？</string>
+  <string name="confirm_roaming_lbutton">繼續</string>
+  <string name="confirm_roaming_rbutton">取消</string>
+  <string name="confirm_roamingWithPrefer_lbutton">本地 SIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton">漫遊 SIM</string>
+	<string name="confirm_roaming_for3Sims_msg">您即將使用的 SIM 卡		現正漫遊。您要繼續嗎？</string>
+	<string name="confirm_radio_lbutton">開啟</string>
+	<string name="confirm_unlock_lbutton">解除鎖定</string>
+	<string name="confirm_unlock_fail">操作已取消</string>
+	<string name="confirm_turnon_radio_fail">操作已取消</string>
+	<string name="confirm_permit_roaming_fail">您取消漫遊 SIM 的這項操作</string>
+	<string name="confirm_sim_locked_message">SIM 卡已被永久鎖定</string>
+  <string name="confirm_slot_locked_message">插槽已被永久鎖定</string>
+	<string name="button_yes">是</string>  
+	<string name="button_no">否</string>  
+</resources>
